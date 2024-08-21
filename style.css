@@ -29,7 +29,7 @@ body{
     font-weight: 100;
 }
 .date-container .time{
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .date-container #am-pm{
@@ -38,7 +38,7 @@ body{
 }
 
 .date-container .date{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .place-container{
@@ -73,7 +73,7 @@ body{
 
 .future-forecast{
     background: rgba(24,24,27,0.8);
-    padding: 25px;
+    padding: 5px;
     position: fixed;
     bottom: 0;
     display: flex;
@@ -147,6 +147,7 @@ body{
         justify-content: start;
         align-items: none;
         overflow-y: scroll;
+        
     }
 
     .future-forecast .today .temp{
